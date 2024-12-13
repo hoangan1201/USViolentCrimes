@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Violent Crimes</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <h1 style="margin-bottom: 0">Interactive Data Visualization</h1>
+    <p style="margin-top: 0">Developed by An Tran & Ahren Salazar</p>
+    <div class="button-container">
+        <button>2001</button>
+        <button>2002</button>
+        <button>2003</button>
+        <button>2004</button>
+        <button>2005</button>
+        <button>2006</button>
+        <button>2007</button>
+        <button>2008</button>
+        <button>2009</button>
+        <button>2010</button>
+        <button>2011</button>
+        <button>2012</button>
+        <button>2013</button>
+        <button>2014</button>
+        <button>2015</button>
+        <button>2016</button>
+    </div>
+    <h2>Map Title</h2>
+</div>
+
+<div class="chart-container">
+    <div id="map" ></div>  <!-- need to have a div here-->
+    <div id="pie-chart">
+        <h2>Click on a State</h2>
+        <h3>to show Violent crimes breakdown</h3>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
